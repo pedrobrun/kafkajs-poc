@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start:consumer": "ts-node consumer/index.ts",
+    "start:consumer:throw": "ts-node consumer/consumer-that-throws.ts",
+    "start:consumer:crash": "ts-node consumer/consumer-that-crashes.ts",
     "start:producer": "ts-node producer/index.ts"
   },
   "dependencies": {
